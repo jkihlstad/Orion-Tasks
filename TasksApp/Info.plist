@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>TasksApp needs access to your calendar to sync tasks with calendar events and provide intelligent scheduling suggestions.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>TasksApp needs access to your reminders to import existing reminders and keep them in sync with your tasks.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>TasksApp needs continuous location access to deliver location-based task reminders even when the app is in the background.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>TasksApp needs your location to provide location-based task reminders and suggest nearby tasks.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>TasksApp needs microphone access to enable voice input for creating and managing tasks hands-free.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>TasksApp uses speech recognition to convert your voice commands into tasks and actions.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>TasksApp reads your health data to intelligently schedule wellness-related tasks based on your activity patterns.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>TasksApp writes to Health to log completed wellness tasks and track your health-related achievements.</string>
+	<key>NSHomeKitUsageDescription</key>
+	<string>TasksApp integrates with HomeKit to trigger home automation scenes when tasks are completed or at scheduled times.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>TasksApp uses Siri to let you create, manage, and complete tasks using voice commands.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.orion.tasks.sync</string>
+		<string>com.orion.tasks.reminder</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

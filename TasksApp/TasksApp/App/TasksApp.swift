@@ -16,6 +16,9 @@ import UIKit
 @main
 struct TasksApp: App {
 
+    // MARK: - AppDelegate Adapter for Push Notifications
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     // MARK: - State Objects
 
     @StateObject private var appEnvironment = AppEnvironment()
